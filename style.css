@@ -21,17 +21,16 @@ html, body {
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 200px;
+    height: 200px;
     color: black;
+    display: block;
+    margin: auto;
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 
-    text-align: left;
+    text-align:center;
 }
