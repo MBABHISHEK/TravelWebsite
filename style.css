@@ -31,6 +31,18 @@ html, body {
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-
+    font-size: 100px;
     text-align:center;
+    padding: auto;
+}
+
+.text{
+
+    /*border:solid 1px #d60808;*/
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
