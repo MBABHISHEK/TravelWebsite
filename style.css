@@ -21,17 +21,28 @@ html, body {
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 200px;
+    height: 200px;
     color: black;
+    display: block;
+    margin: auto;
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 100px;
+    text-align:center;
+    padding: auto;
+}
 
-    text-align: left;
+.text{
+
+    /*border:solid 1px #d60808;*/
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
